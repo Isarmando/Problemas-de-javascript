@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 04 JS</title>
+    <link rel="stylesheet" href="./CSS/problemas.css">
+    <script src="JS/problema04.js"></script>
+</head>
+<body>
+    
+    <h1>
+
+       4.- Un alumno desea saber cual será su califcacion 
+       final en la materia de Algoritmos. Dicha calificación se compone de 
+       los siguientes porcentajes: 55% promedio de las calificaciones; 30% examen final; 15% trabajo final
+
+    </h1>
+
+    <form method="post" name="formulario">
+
+        <center><table align="center" border="1">
+            <tr>
+                <td class="td_sup">
+                    Cuanto sacaste en el Primer parcial
+                </td>
+                <td class="td_sup">
+                    <input class="botones" type="text" name="examen_1" onkeypress="return validarn(event)">
+                </td>
+            </tr>
+            <tr>
+                <td class="td_inf">
+                    Cuanto sacaste en el Segundo parcial
+                </td>
+                <td class="td_inf">
+                    <input class="botones"  type="text" name="examen_2" onkeypress="return validarn(event)">
+                </td>
+            </tr>
+            <tr>
+                <td class="td_sup">
+                    Cuanto sacaste en el Tercer parcial
+                </td>
+                <td class="td_sup">
+                    <input class="botones"  type="text" name="examen_3" onkeypress="return validarn(event)">
+                </td>
+            </tr>
+            <tr>
+                <td class="td_inf">
+                    Pon tu califcacion de tu examen final:
+                </td>
+                <td class="td_inf">
+                    <input class="botones"  type="text" name="examen_final" onkeypress="return validarn(event)">
+                </td>
+            </tr>
+            <tr>
+                <td class="td_sup">
+                    ¿Cuanto sacaste en tu trabajo final?_
+                </td>
+                <td class="td_sup">
+                    <input class="botones"  type="text" name="trabajo_final" onkeypress="return validarn(event)">
+                </td>
+            </tr>
+            <tr>
+                <td class="td_inf"></td>
+                <td class="td_inf">
+                    <input class="botones"  type="button" value="Calcular promedio" name="enviar" onclick="calculo()">
+                </td>
+            </tr>
+            <tr>
+                <td class="td_sup">
+                    Promedio final:
+                <td class="td_sup">
+                    <input class="botones"  type="text" name="promedio_final" id="cantidad" readonly="readonly" class="input_text">
+                </td>
+            </tr>
+            <tr>
+                <td class="td_inf"></td>
+                <td class="td_inf">
+                    <input class="botones"  type="button" value="Borrar" name="reset" onclick="borrar()">
+                </td>
+            </tr>
+        </table>
+    </center>
+
+    </form>
+    <br>
+    <a href="index.html">Regresar al formulario principal</a>
+    
+
+</body>
+</html>
