@@ -1,0 +1,31 @@
+*{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+
+}
+body{
+    background-color:#B8848E;
+    font-family: 'Merriweather', serif;
+}
+
+td{
+    background: #FFB8C5;     
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+
+.botones{
+    background-color: #ffffff;
+    color: #802838;
+}
+
+p{
+    font-size: x-large;
+    
+}
+
+a{
+    font-size:larger
+}
+
+

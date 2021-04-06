@@ -10,62 +10,110 @@
 </head>
 <body>
     
-    <h1>
+    <p>
 
         6.- Realizar un algoritmo que calcule la edad de una persona.
 
-    </h1>
+    </p>
 
     <form method="post" name="formulario">
 
         <center><table align="center" border="1">
             <tr>
+                <h1>Solo valores numericos</h1>
+            </tr>
+            <tr>
                
+                <td class="td_sup">
+                    Dia actual:
+                </td>
+                <td class="td_sup">
+                    <input class="botones"  type="text" name="dia_actual" onkeypress="return validarn(event)">
+                </td>
+                
+            </tr>
+            <tr>
+               
+                <td class="td_sup">
+                    Mes actual:
+                </td>
+                <td class="td_sup">
+                    <input class="botones"  type="text" name="mes_actual" onkeypress="return validarn(event)">
+                </td>
+                
+            </tr>
+            <tr>
+               
+                <td class="td_sup">
+                    Año actual:
+                </td>
                 <td class="td_sup">
                     <input class="botones"  type="text" name="año_actual" onkeypress="return validarn(event)">
                 </td>
-                <td class="td_sup">
-                    Digite el año actual:
-                </td>
+                
             </tr>
             <tr>
                 
+                <td class="td_inf">
+                    Dia de su nacimiento:
+                </td>
+                <td class="td_inf">
+                    <input class="botones"  type="text" name="dia_nacer" onkeypress="return validarn(event)">
+                </td>
+                
+            </tr>
+            <tr>
+                
+                <td class="td_inf">
+                    Mes de su nacimiento:
+                </td>
+                <td class="td_inf">
+                    <input class="botones"  type="text" name="mes_nacer" onkeypress="return validarn(event)">
+                </td>
+                
+            </tr>
+            <tr>
+                
+                <td class="td_inf">
+                    Año de su nacimiento:
+                </td>
                 <td class="td_inf">
                     <input class="botones"  type="text" name="año_nacer" onkeypress="return validarn(event)">
                 </td>
-                <td class="td_inf">
-                    Digite el año de su nacimiento:
-                </td>
+                
             </tr>
             <tr>
                
+                <td class="td_sup"></td>
                 <td class="td_sup">
                     <input class="botones"  type="button" value="Calcular edad" name="enviar" onclick="calculo()">
                 </td>
-                <td class="td_sup"></td>
+                
             </tr>
             <tr>
                
                 <td class="td_inf">
-                    <input class="botones"  type="text" name="final" id="cantidad" readonly="readonly" class="input_text">
-                </td>
-                <td class="td_inf">
                     Edad aproximada:
                 </td>
+                <td class="td_inf">
+                    <input class="botones"  type="text" name="final" id="cantidad" readonly="readonly" class="input_text">
+                </td>
+                
             </tr>
             <tr>
                 
+                <td class="td_sup"></td>
                 <td class="td_sup">
                     <input class="botones" type="button" value="Borrar" name="reset" onclick="borrar()">
                 </td>
-                <td class="td_sup"></td>
+                
             </tr>
         </table>
     </center>
 
     </form>
     <br>
-    <a href="index.html">Regresar al formulario principal</a>
+    <a href="index.html">Menu</a>
     
 
 </body>

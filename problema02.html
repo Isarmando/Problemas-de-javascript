@@ -10,24 +10,20 @@
 </head>
 <body>
     
-    <h1>
+    <p>
 
-       2.- Un vendedor recibe un sueldo base mas un 10% extra por comision de sus ventas.
-       el vendedor desea saber cuanto dinero obtendrá
-       por concepto de comision de us ventas. 
-       El vendedor desea saber cuanto dinero obtendrá 
-       por comisiones por las tres ventas que realiza 
-       en el mes y el total que recibirá en el mes tomando en cuenta
-       su sueldo base y comisiones.
+       2.- Un vendedor recibe un sueldo base mas un 10% extra por comision de sus ventas. El vendedor desea saber cuanto dinero obtendrá
+       por concepto de comision de us ventas. El vendedor desea saber cuanto dinero obtendrá por comisiones por las tres ventas que realiza 
+       en el mes y el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones.
 
-    </h1>
+    </p>
 
     <form method="post" name="formulario">
 
         <center><table align="center" border="1">
             <tr>
                 <td class="td_sup">
-                    Cuanto gana usted?:
+                    ¿Cuanto gano este mes?
                 </td>
 
                 <td class="td_sup">
@@ -38,7 +34,7 @@
             
             <tr>
                 <td class="td_inf">
-                    Cuantas ventas hizo?:
+                    ¿Cuantas ventas hizo?
                 </td>
 
                 <td class="td_inf">
@@ -47,38 +43,40 @@
                             
             </tr>
             <tr>
-             
-                
+               
+                <td class="td_sup"></td>
                 <td class="td_sup">
                     <input class="botones" type="button" value="Obtener sueldo" name="enviar" onclick="calculo()">
                 </td>
-                <td class="td_sup"></td>
+                
             </tr>
             <tr>
                 <td class="td_inf">
-                    Lo que gano de comisiones fue:
+                    En comisiones fue:
                 </td>
                 <td class="td_inf">
                     <input class="botones" type="text" name="comisionn" id="cantidad" readonly="readonly" class="input_text"> 
                 </td>
             </tr>
+
             <tr>
+                <td class="td_sup">
+                    Total a Recibir:
+                </td>
                 <td class="td_sup">
                     <input class="botones" type="text" name="sueldoti" id="cantidadi" readonly="readonly" class="input_text"> 
                 </td>
-                <td class="td_sup">
-                    Todo lo que tendra que recibir es:
-                </td>
+                
             </tr>
+
             <tr>
-
-
-
-            </tr>
-             <td class="td_inf">
+                <td class="td_sup"></td>
+                <td class="td_inf">
                     <input class="botones" type="button" value="Borrar" name="reset" onclick="borrar()">
              </td>
-             <td class="td_inf"></td>
+            </tr>
+
+           
 
 
         </table>
@@ -86,7 +84,7 @@
 
     </form>
     <br>
-    <a href="index.html">Regresar al formulario principal</a>
+    <a href="index.html">Menu</a>
     
 
 </body>
